@@ -1,8 +1,8 @@
 # Pemrograman Web
-Nama: Dea Alya
-Nim: 0701232102
-Kelas: Ik-4
-Modul 3:Laout Web Semantik Lanjutan
+<P>Nama: Dea Alya
+<p>Nim: 0701232102
+<P>Kelas: Ik-4
+<p>Modul 3:Laout Web Semantik Lanjutan
   Tujuan Praktikum ini adalaha agar mahasiswa ddapat memahami hal berikut:
 1. Mahasiswa dapat membuat Layout Web Semantik dengan menggunakan css3
 2. Mahsiswa mampu menampilkan web lebih interaktif
