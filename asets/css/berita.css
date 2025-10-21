@@ -1,0 +1,49 @@
+article {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px; 
+  padding: 20px;
+}
+
+#beritac {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#imgber {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+}
+
+#beritac h2 {
+  color: #b80000;
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+#beritac {
+  font-size: 0.95em;
+  color: #333;
+  line-height: 1.4em;
+}
+
+#more a {
+  display: inline-block;
+  background-color: #DD2D4A;
+  color: #CBEEF3;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 6px 12px;
+  margin-top: 10px;
+}
+
+#more a:hover {
+  background: #880D1E;
+  color: #CBEEF3;
+}
