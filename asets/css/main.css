@@ -1,0 +1,190 @@
+#wrapper {
+  width: 960px;
+  margin: auto;
+  border: #f00 1px solid;
+}
+
+header {
+  height: 120px;
+  width: 960px;
+  float: left;
+}
+
+nav {
+	width: 960px;
+	margin: 0 auto; /* Menempatkan nav di tengah halaman */
+	justify-content: center; /* Menu di tengah */
+	background: #DD2D4A;
+	overflow: auto;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+	display: flex;
+    
+}
+nav ul {
+   list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 60px; /* Menambah jarak antar menu */
+}
+
+nav ul li {
+  display: block;
+  float: left;
+  padding: 5px 10px 5px 10px;
+  margin: 0px;
+}
+
+nav ul li .submenu {
+  display: none;
+}
+nav ul li:hover .submenu {
+  display: block;
+  margin: 0px;
+  width: 128px;
+  position: absolute;
+  margin-top: 5px;
+  background: #DD2D4A;
+  margin-left:-11px;
+  text-align: left; /* Rata kiri submenu */
+}
+nav ul li:hover .submenu li {
+  display: block;
+  width: 128px;
+  padding: 5px;
+  float: left;
+  border: none;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #880D1E;
+  text-decoration:underline;
+  text-underline-offset: 15px; /* Atur jarak underline */
+  text-decoration-color: #880D1E;
+}
+
+nav ul li a.active {
+  color: #880D1E;             /* Warna fon khusus menu aktif */
+  text-decoration: underline; /* Garis bawah (underline) */
+  text-decoration-color: #880D1E; /* Warna underline */
+  text-underline-offset: 15px;     /* Jarak underline dengan teks */
+}
+#wrapper article {
+  width: 620px;
+  float: left;
+  padding: 10px;
+  /* background: #ccc; */
+}
+#wrapper article #single {
+  margin: 5px;
+ /* border: #dfdfdf 1px solid;*/
+ border-top: #dfdfdf 1px solid;
+  padding: 5px;
+  font-size: 13px;
+  float: left;
+  overflow: auto;
+  text-align: justify;
+}
+#wrapper article #single #t-image {
+  width: 150px;
+  height: 150px;
+  float: left;
+  overflow: auto;
+  margin-right: 5px;
+}
+#wrapper article #single h2 {
+  margin: 0px;
+  font-family: Tahoma;
+  font-size: 15px;
+  padding: 5px;
+  color: black;
+  /*border: #dfdfdf 1px solid;*/
+  /* background: #ededed; */
+}
+#wrapper article #single h2:hover{
+	color: #097C8C;
+	text-decoration:none;
+	
+}
+#wrapper article #single #more a {
+  float: right;
+  overflow: auto;
+  /*border: 1px solid #ff9933; */
+  background: #DD2D4A;
+  padding: 2px 10px 2px 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #CBEEF3;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+#wrapper article #single #more a:hover {
+  background: #880D1E;
+  color: #CBEEF3;
+  /*border: #cc6600 1px solid;*/
+}
+#wrapper aside {
+  width: 300px;
+  float: left;
+  padding: 10px;
+  /* background: #add8e6; */
+}
+#wrapper aside .widget {
+  list-style: none;
+  border: #DD2D4A 1px solid;
+}
+
+#wrapper aside .widget ul {
+  list-style: none;
+  margin-left: -40px;
+}
+
+#wrapper aside .widget li a {
+  text-decoration: none;
+  color: #880D1E;
+}
+
+#wrapper aside .widget li a:hover {
+  text-decoration: underline;
+  color: #F26A8D;
+}
+footer {
+  width: 960px;
+  float: left;
+}
+
+footer {
+  width: 960px;
+  background: #DD2D4A;
+  color: #9FBEC3;
+}
+
+footer #column {
+  width: 300px;
+  float: left;
+  padding: 10px;
+  font-size: 14px;
+}
+
+footer #column h2 {
+  margin: 0px;
+  margin-bottom: 10px;
+  font-family: Tahoma;
+  font-size: 18px;
+  color: #CBEEF3;
+  font-weight: bold;
+}
+
+footer #column a {
+  color: #0099cc;
+  text-decoration: none;
+}
