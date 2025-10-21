@@ -46,17 +46,17 @@
 					<li class="widget">
 						<h2>Artikel Populer</h2>
 						<ul>
-						<li><a href="#">Artikel 1</a></li>
-						<li><a href="#">Artikel 2</a></li>
-						<li><a href="#">Artikel 3</a></li>
+						<li><a href="arpop1.php">Artikel 1</a></li>
+						<li><a href="arpop2.php">Artikel 2</a></li>
+						<li><a href="arpop3.php">Artikel 3</a></li>
 						</ul>
 					</li>
 					<li class="widget">
 						<h2>Berita selanjutnya</h2>
 						<ul>
-						<li><a href="#">Gejala pusing katena kuliah</a></li>
-						<li><a href="#">Kapan Libur Anak Kuliahan</a></li>
-						<li><a href="#">Prediksi Cuaca Hari ini</a></li>
+						<li><a href="bersel1.php">Gejala pusing katena kuliah</a></li>
+						<li><a href="bersel2.php">Kapan Libur Anak Kuliahan</a></li>
+						<li><a href="besel3.php">Prediksi Cuaca Hari ini</a></li>
 						</ul>
 					</li>
 			</aside>            

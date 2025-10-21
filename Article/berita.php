@@ -3,6 +3,7 @@
 <head>
     <title>DeaNews</title>
     <link rel="stylesheet" href="../asets/css/main.css">
+	<link rel="stylesheet" href="../asets/css/berita.css">
 </head>
 <body>
     <div id="wrapper">
@@ -21,24 +22,56 @@
 				</ul>
 			</nav>            
             <article>
-				<div id="single">
-					<div id="t-image" style="background:url(../asets/img/1.jpg)">&nbsp;</div>
+				<div id="beritac">
+					<div id="imgber" style="background:url(../asets/img/1.jpg)">&nbsp;</div>
 					<h2>Indonesia mendidih, BMKG: Hindari keluar rumah pukul 10.00-16.00</h2>
 					Badan Meteorologi, Klimatologi, dan Geofisika (BMKG) mengimbau masyarakat agar menghindari aktivitas di luar ruangan pada pukul 10.00–16.00 WIB selama periode cuaca panas ekstrem yang tengah melanda berbagai wilayah Indonesia.Deputi Bidang Meteorologi BMKG, Guswanto, menjelaskan bahwa cuaca panas ekstrem diperkirakan masih akan berlangsung hingga akhir Oktober atau awal November 2025 .<div id="more"><a href="./article1.php">Baca selengkapnya</a></div>
 				</div>
-				<div id="single">
-					<div id="t-image" style="background:url(../asets/img/article2.jpg)">&nbsp;</div>
+				<div id="beritac">
+					<div id="imgber" style="background:url(../asets/img/article2.jpg)">&nbsp;</div>
 					<h2>Setahun pemerintahan Prabowo, posisi PDIP masih jadi pertanyaan</h2>
 					Ketika Prabowo Subianto dilantik menjadi presiden kedelapan Indonesia pada 2024, Partai Demokrasi Indonesia Perjuangan (PDIP) tidak ingin disebut sebagai oposisi, melainkan "partai penyeimbang".
 					PDIP yang menguasai 110 dari 580 kursi di DPR adalah satu dari dua partai politik (parpol) yang tidak masuk dalam koalisi pemerintahan Prabowo. Partai lainnya di luar koalisi adalah Nasional Demokrat (NasDem) dengan 69 kursi di parlemen.<div id="more"><a href="./article2.php">Baca selengkapnya</a></div>
 				</div>
-				<div id="single">
-					<div id="t-image" style="background:url(../asets/img/article3.jpg)">&nbsp;</div>
+				<div id="beritac">
+					<div id="imgber" style="background:url(../asets/img/article3.jpg)">&nbsp;</div>
 					<h2>Kronologi kematian Timothy Anugerah dan dugaan bullying di Universitas Udayana</h2>
 					Seorang mahasiswa Sosiologi FISIP Universitas Udayana (Unud), Timothy Anugerah Saputra, meninggal dunia pada Rabu (15/10), setelah terjun dari gedung FISIP di Denpasar, Bali. Insiden ini memantik gelombang reaksi publik usai beredar tangkapan layar percakapan di media sosial yang menyinggung kematiannya dengan nada mengejek, memantik dugaan adanya perundungan di balik dinding kampus. <div id="more"><a href="./article3.php">Baca selengkapnya</a></div>
 				</div>
+				<div id="beritac">
+					<div id="imgber" style="background:url(../asets/img/article4.png)">&nbsp;</div>
+					<h2>Pangdam I/BB Respons Vonis 10 Bulan Oknum TNI Aniaya Pelajar hingga Tewas</h2>
+					Jakarta - Pengadilan militer menjatuhkan vonis 10 bulan penjara kepada oknum TNI bernama Sertu Riza Pahlivi dalam kasus penganiayaan hingga tewas kepada siswa SMP berinisial MHS (15). Pangdam I/BB Mayjen Rio Firdianto buka suara atas putusan tersebut.
+					<div id="more"><a href="./article3.php">Baca selengkapnya</a></div>
 				</div>
-			</article>             
+				</div>
+			</article> 
+			<aside>
+					<li class="widget">
+						<h2>Berita Populer</h2>
+						<ul>
+						<li><a href="./article3.php">Kematian Timothy Anughrah</a></li>
+						<li><a href="./article2.php">Mempertanyakan posisi PDIP</a></li>
+						<li><a href="./article1.php">Hindari Keluar Rumah Pukul 10.00-16.00</a></li>
+						</ul>
+					</li>
+					<li class="widget">
+						<h2>Artikel Populer</h2>
+						<ul>
+						<li><a href="arpop1.php">Artikel 1</a></li>
+						<li><a href="arpop2.php">Artikel 2</a></li>
+						<li><a href="arpop3.php">Artikel 3</a></li>
+						</ul>
+					</li>
+					<li class="widget">
+						<h2>Berita selanjutnya</h2>
+						<ul>
+						<li><a href="bersel1.php">Gejala pusing katena kuliah</a></li>
+						<li><a href="bersel2.php">Kapan Libur Anak Kuliahan</a></li>
+						<li><a href="besel3.php">Prediksi Cuaca Hari ini</a></li>
+						</ul>
+					</li>
+			</aside>    
            <footer>
 				<div id="column">
 					<h2>LAYANAN</h2>

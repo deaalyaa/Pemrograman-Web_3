@@ -3,6 +3,7 @@
 <head>
     <title>DeaNews</title>
     <link rel="stylesheet" href="../asets/css/main.css">
+	<link rel="stylesheet" href="../asets/css/profil.css">
 </head>
 <body>
     <div id="wrapper">
@@ -20,22 +21,21 @@
 					</li>
 				</ul>
 			</nav> 
-			 <section id="profil">
-            <h1>Profil DeaNews</h1>
-            <p>DeaNews adalah portal berita indonesia yang menyajikan informasi terkini seputar dunia pahit, sosial, dan masyarakat di lingkungan kampus dan sekitar.</p>
-        </section>
-        <section id="hub">
-            <h2>Hubungi Kami</h2>
-            <ul>
-                <li>Email: deanews@uinsu.ac.id</li>
-                <li>Telepon: +62 838 3517 8502</li>
-                <li>Instagram: deaawly_</li>
-            </ul>
-        </section>
-        <section id="tentang">
-            <h2>Tentang Kami</h2>
-            <p>Kami hadir untuk memberikan informasi terpercaya dan edukatif bagi masyarakat akademik dan umum, dengan dedikasi penuh demi perkembangan literasi di Indonesia.</p>
-        </section>
+			  <section id="tentang" class="profile-section">
+      <h2>Tentang</h2>
+      <p>
+        Aku adalah mahasiswa semester 5 yang sedang belajar layout web semantik hehehe</p>
+    </section>
+
+    <section id="hub" class="profile-section">
+      <h2>Hubungi</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Masukan Nama" required>
+        <input type="email" placeholder="Masukan Email" required>
+        <textarea placeholder="Masukan keluh kesah kamu ya..:>" required></textarea>
+        <button type="submit">Kirim Yuk! 🚀</button>
+      </form>
+    </section>
 			 <footer>
 				<div id="column">
 					<h2>LAYANAN</h2>
