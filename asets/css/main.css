@@ -70,10 +70,10 @@ nav ul li a:hover {
 }
 
 nav ul li a.active {
-  color: #880D1E;             /* Warna fon khusus menu aktif */
-  text-decoration: underline; /* Garis bawah (underline) */
-  text-decoration-color: #880D1E; /* Warna underline */
-  text-underline-offset: 15px;     /* Jarak underline dengan teks */
+  color: #880D1E;             
+  text-decoration: underline; 
+  text-decoration-color: #880D1E; 
+  text-underline-offset: 15px;     
 }
 #wrapper article {
   width: 620px;
@@ -84,7 +84,9 @@ nav ul li a.active {
 #wrapper article #single {
   margin: 5px;
  /* border: #dfdfdf 1px solid;*/
- border-top: #dfdfdf 1px solid;
+ border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
   padding: 5px;
   font-size: 13px;
   float: left;
@@ -96,7 +98,7 @@ nav ul li a.active {
   height: 150px;
   float: left;
   overflow: auto;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 #wrapper article #single h2 {
   margin: 0px;
@@ -140,7 +142,12 @@ nav ul li a.active {
 }
 #wrapper aside .widget {
   list-style: none;
-  border: #DD2D4A 1px solid;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-top:10px;
 }
 
 #wrapper aside .widget ul {
@@ -160,10 +167,6 @@ nav ul li a.active {
 footer {
   width: 960px;
   float: left;
-}
-
-footer {
-  width: 960px;
   background: #DD2D4A;
   color: #9FBEC3;
 }
